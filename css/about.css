@@ -1,0 +1,77 @@
+.public-left{
+	height: 1564px;
+}
+.inner{
+	height: 796px;
+}
+.inner h2{
+	padding-top: 29px;
+	font-size: 30px;
+	color: #e94b59;
+	line-height: 58px;
+	text-align: center;
+	font-weight: bold;
+}
+.inner p{
+	font-size: 16px;
+	line-height: 58px;
+	text-align: center;
+}
+.inner form{
+	width: 580px;
+	margin: auto;
+}
+.inner ul li span{
+	font-size: 20px;
+	line-height: 58px;
+}
+.inner .special{
+	line-height: 1em;
+}
+.inner .ad{
+	width: 476px;
+	display: inline-block;
+	line-height: 3em;
+	margin-left: 100px;
+	text-align: left;
+}
+.inner .ad .txt{
+	width: 390px;
+}
+.inner .ad span{
+	margin-left: -100px;
+}
+.inner  input{
+	vertical-align: middle;
+}
+.inner .radio{
+	width: 16px;
+	height: 16px;
+}
+.inner .txt{
+	width: 476px;
+	height: 30px;
+}
+.inner em{
+	font-size: 16px;
+	color: #999;
+	font-style: normal;
+	padding-left: 10px;
+}
+.inner textarea{
+	width: 474px;
+	vertical-align: top;
+	resize: none;
+}
+
+.inner button{
+	float: right;
+	width: 144px;
+	height: 50px;
+	font-size: 20px;
+	color: #fff;
+	background: #ff6360;
+	outline: 0;
+	border-radius: 10px 10px;
+	margin-top: 20px;
+}

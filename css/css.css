@@ -1,0 +1,172 @@
+
+.ecto_top{
+    height:443px;
+    background:white;
+}
+.ecto_top1{
+    width:1141px;
+    height:440px;
+    border:1px solid black;
+    margin:20px auto;
+}
+.ecto_top1 p{
+    text-align: center;
+    color: #e94b59;
+    font-size: 30px;
+    padding-bottom: 30px;
+    font-weight: bolder;
+}
+.box ul{
+    height:122px;
+}
+.box ul li{
+    list-style: none;
+    float: left;
+    margin-left: 5px;
+}
+.box_ul1{
+    margin-left:107px;
+}
+.box_ul2{
+    margin-left:53px;
+}
+.boxF, .boxS, .boxT, .overlay
+{
+    width: 107px;
+    height: 122px;
+    overflow: hidden;
+}
+.boxF, .boxS
+{
+    visibility: hidden;
+}
+.boxF
+{
+    transform: rotate(120deg);
+    float: left;
+    margin-left: 10px;
+}
+.boxS
+{
+    transform: rotate(-60deg);
+}
+.boxT
+{
+    transform: rotate(-60deg);
+    background: no-repeat 50% center;
+    background-size: 125% auto;
+    visibility: visible;
+    background: black;
+}
+.box_red{
+    background: #ca192b;
+}
+.box_blue{
+    background: #9cc602;
+}
+
+
+
+/*视频广告页*/
+#video_main,#home_left_video{
+    height:1776px;
+}
+.nav_dsp_li a{
+    color: #f0ff00;
+}
+/*视频广告top*/
+.Video_Top{
+    height:556px;
+    background: white;
+    /*text-align: center;*/
+}
+.Top_p1{
+    width: 422px;
+    display:block;
+    font-size:30px;
+    color: #e94b59;
+    margin-top: 26px;
+    visibility: hidden;
+}
+.Top_p2{
+    width:606px;
+    display: block;
+    font-size: 20px;
+    color: #000000;
+    visibility: hidden;
+}
+.Top_p2 span{
+    font-size: 25px;
+    color: #ea5413;
+}
+.Video_Top1{
+    width:1046px;
+    height:418px;
+    /*border:1px solid black;*/
+    margin: 24px auto;
+    position: relative;
+}
+.Top_arrow{
+    width:755px;
+    /*height:56px;*/
+    background: url("../img/arrow.png");
+    margin: 0px auto;
+}
+.Top_map{
+    width:558px;
+    height: 376px;
+    opacity: 0;
+    /*margin:0px auto;*/
+    margin-top: -36px;
+    margin-left: 260px;
+    background: url("../img/V_map.png");
+}
+.Top_mov1,.Top_mov2{
+    position: absolute;
+    width:304px;
+    height:204px;
+    /*border:1px solid black;*/
+    top: 55px;
+    overflow: hidden;
+}
+.Top_mov2{
+    left: 740px;
+}
+.mov_left,.mov_right{
+    float: left;
+    width:150px;
+    height: 204px;
+    /*background: pink;*/
+}
+.mov_right{
+    margin-left: 4px;
+}
+.mov_left1,.mov_left2{
+    width:138px;
+    height:40px;
+    /*background: white;*/
+}
+.mov_left2{
+    margin-top: 10px;
+}
+/*视频广告bottom*/
+
+.Video_bottom{
+    height:426px;
+    background: #f2f0f0;
+    overflow: hidden;
+}
+.V_bottom{
+    width: 793px;
+    height: 374px;
+    /*border: 1px solid black;*/
+    margin: 38px auto;
+    overflow: hidden;
+}
+.bottom_phone{
+    width:211px;
+    height: 368px;
+    margin-left:40px ;
+    /*border:1px solid black;*/
+    float: left;
+}

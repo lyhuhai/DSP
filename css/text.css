@@ -1,0 +1,278 @@
+*{margin: 0px;padding: 0px;}
+
+/*侧边栏*/
+.side{
+    width: 100px;
+    height: 1911px;
+    background: #031421;
+    overflow: hidden;
+    /*position: fixed;*/
+    position: relative;
+    left:0px;
+    top:0px;
+}
+.xian{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.xian li{
+    width: 50px;
+    height: 2px;
+    list-style: none;
+    border-top: 2px solid white;
+    margin-top: 10px;
+}
+.side img{
+    margin-left: 17px;
+    margin-top: 28px ;
+}
+
+/*灯泡大图*/
+.bg{
+    width: 1820px;
+    height: 626px;
+    background: url("../img/25_1.jpg");
+    background-size: 1820px 626px;
+    position: absolute;
+    left: 100px;
+    top: 0px;
+    z-index: 0;
+}
+
+/*导航栏*/
+.public-right{
+    width: 1820px;
+    height: 66px;
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    left: 100px;
+    top:560px;
+}
+.outer{
+    width: 1816px;
+}
+#icon{
+    width:105px;
+    height: 66px;
+    position: absolute;
+    left: 100px;
+    top: 560px;
+
+}
+.public-right span{
+    font:18px "microsoft yahei";
+    color: white;
+    position: absolute;
+    left: 130px;
+    top: 20px;
+}
+.icon_1{
+    width: 30px;
+    height: 35px;
+    background: url("../img/25_5.png") -13px -11px;
+    position: absolute;
+    left: 290px;
+    top:15px;
+}
+/*导航*/
+.nav{
+    width: 912px;
+    height: 66px;
+    position: absolute;
+    left:908px;
+    top:0px;
+    z-index: 10;
+}
+.public-right .nav-bg{
+    width: 150px;
+    height: 66px;
+    background: rgba(0,0,0,0.4);
+    border-radius: 10px 10px;
+    position: absolute;
+}
+.nav li{
+    width: 150px;
+    height: 66px;
+    border-left: 1px solid #c13248;
+    list-style: none;
+    float: left;
+    font: 14px "microsoft yahei";
+    text-align: center;
+    line-height: 66px;
+    background: rgba(0,0,0,0.2);
+
+}
+.nav li:first-child{
+    margin-left: 0px;
+}
+.nav a{
+    float: left;
+    width: 150px;
+    height: 66px;
+    color: white;
+    text-decoration: none;
+}
+
+/*第二块视频网站*/
+.video{
+    width: 1820px;
+    height: 600px;
+    /*border: 1px solid black;*/
+    position: absolute;
+    left:100px;
+    top:625px;
+}
+.tle{
+    margin-left: 300px;
+    margin-top: 30px;
+    opacity: 0;
+}
+.dazi{
+    font: bold 30px "microsoft yahei";
+    color:#e94b59;
+    margin-left: 50px;
+}
+.tle span{
+    font: 20px "microsoft yahei";
+    color: black;
+}
+#red,#big{
+    font-size: 26px;
+    font-weight: bold;
+    color: #e94b59;
+}
+/*各大app*/
+#frame{
+    width: 1000px;
+    height: 450px;
+}
+
+.pic{
+    width: 800px;
+    height: 430px;
+    background: url("../img/25_2.jpg");
+    background-size: 800px 430px;
+    margin-left: 500px;
+    margin-top: 30px;
+    display: none;
+}
+#frame ul{
+    height: 300px;
+    float: left;
+    margin-top: 40px;
+}
+#frame li{
+    list-style: none;
+    margin-top: 15px;
+    margin-left: 10px;
+    opacity: 0;
+    transform: rotate(270deg);
+    transition-origin: 0% 100%;
+}
+#frame img{
+    width: 130px;
+    height: 36px;
+    border-radius: 5px;
+
+}
+.app_1,.app_2{
+    overflow: hidden;
+}
+.app_1{
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    left: 367px;
+    top: 200px;
+}
+.app_2{
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    left: 1108px;
+    top: 200px;
+}
+.tx img{
+    border: 1px solid deepskyblue;
+}
+.wu img{
+    border: 1px solid red;
+}
+.ku img{
+    border: 1px solid black;
+}
+.dy img{
+    border: 1px solid blue;
+}
+.td img{
+    border: 1px solid #f80;
+}
+
+.aq img{
+    border: 1px solid palegreen;
+}
+.icon_4{
+    position: absolute;
+    left: 992px;
+    top:795px;
+}
+.icon_4 img{
+    width: 40px;
+    height: 40px;
+    opacity: 0;
+}
+.sanjiao{
+    border:20px solid transparent;
+    border-top: 20px solid white;
+    position: absolute;
+    left:1010px;
+    top:1227px;
+    z-index: 1;
+}
+.phone{
+    width: 1820px;
+    height: 600px;
+    background: #f2f0f0;
+    position: absolute;
+    left:100px;
+    top: 1227px;
+    z-index: 0;
+}
+.show{
+    margin-top: 80px;
+    margin-left: 500px;
+}
+.show li{
+    width: 250px;
+    height: 405px;
+    list-style: none;
+    float: left;
+    margin-left: 50px;
+}
+.tuu{
+    width: 230px;
+    height: 371px;
+    transform: rotate(0deg);
+}
+.tu{
+    width: 280px;
+    height: 452px;
+}
+/*底部*/
+.foot{
+    width: 1820px;
+    height: 84px;
+    background: #ba0013;
+    font: 16px "microsoft yahei";
+    color: white;
+    position: absolute;
+    left:100px;
+    top:1827px;
+}
+.one{
+    margin-left: 600px;
+    margin-top: 30px;
+}
+.two{
+    margin-left: 680px;
+}

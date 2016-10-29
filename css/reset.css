@@ -1,0 +1,150 @@
+body,div,p,a,li,ul,ol,img,h1,h2,h3,h4,h5,h6,em,span,input{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: "微软雅黑","microsoft yahei";
+}
+a{
+    text-decoration: none;
+}
+ol,ul,li{
+  list-style: none;
+}
+input{
+    outline: none;
+}
+.outer{
+    width: 1920px;
+}
+.outer .public-left{
+    position: absolute;
+    width: 100px;
+    background: #031421;
+}
+.public-right{
+    width: 1820px;
+    position: absolute;
+    left: 100px;
+    background: #fff;
+    
+}
+/*左边*/
+.public-left{
+    width:100px;
+    background: #031421;
+    overflow: hidden;
+}
+.public-left_top{
+    width:50px;
+    height: 40px;
+    margin:20px auto ;
+}
+.public-left_top ul li{
+    list-style: none;
+    width:50px;
+    height:2px;
+    background: white;
+    margin-top: 10px;
+}
+.public-left_zixun{
+    width:68px;
+    height:70px;
+    background: url(../img/zixun.png);
+    margin: 10px auto;
+}
+.clearFloat:after{
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+}
+/*面板1*/
+.panel-1{
+    height: 684px;
+    background: url(../img/2-1.1.png) no-repeat 0px 0px;
+    background-size: 100% 100%;
+}
+/*导航*/
+.nav{
+    width: 1820px;
+    position: absolute;
+    left: 0px;
+    top:618px;
+    height: 66px;
+    background: rgba(0,0,0,0.3) url(../img/redLogo.png) no-repeat 0px 0px;
+}
+.nav span{
+    float: left;
+    margin:24px 20px 0px 114px;
+    color: #fff;
+}
+.nav .date{
+    float: left;
+    width: 30px;
+    height: 35px;
+    margin-top: 14px;
+    background: url(../img/date.png) no-repeat 0px 0px;
+}
+.nav ul{
+    position: absolute;
+    right:0;
+    z-index: 100;
+}
+.nav li{
+    float: left;
+    width: 158px;
+    line-height: 66px;
+    text-align: center;
+    border-left:1px solid #c13248;
+    background: rgba(0,0,0,0.2);
+
+}
+.nav .nav-bg{
+    width: 158px;
+    height: 66px;
+    background: rgba(0,0,0,0.4);
+    border-radius: 10px 10px;
+    position: absolute;
+}
+.nav li a{
+    display: block;
+    width: 158px;
+    height: 66px;
+    color: #fff;
+}
+
+/*下面*/
+.footer{
+    height: 84px;
+    background: #ba0013;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+.footer p{
+    line-height: 1.5em;
+    margin-top:24px;
+}
+
+
+.triangle:after{
+    content: '';
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top: 20px solid #fff;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+
+}
+.clearFloat:after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+}
+.overflow{
+    overflow: hidden;
+}
